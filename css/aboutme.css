@@ -8,7 +8,6 @@
 /* constants */
 :root {
     --header-height: 7vh; 
-    --body-height: 5vh; 
 }
 
 html {
@@ -47,14 +46,14 @@ a {
 #header h1 {
     border-color: green;
     
-    height: var(--header-height)-100;
-    width: 13vw;
+    font-size: 30px;
+    height: auto;
+    width: auto;
 
-    padding-top: 2.3vh;
-    padding-bottom: 1vh;
     margin-right: 20vw;
 
-    font-size: 30px;
+    text-align: center;
+    align-items: center;
 }
 
 #navcon {
