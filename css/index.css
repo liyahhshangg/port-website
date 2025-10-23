@@ -1,0 +1,86 @@
+/* all items */
+* {
+    border-style: solid;
+    font-family: "garamond";
+    font-family: "garamond";
+}
+
+html {
+    border-color: red;
+}
+
+body {
+    border-color: orange;
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* unordered lists */
+ul {
+    padding-left: 0vw;
+    text-align: left;
+}
+
+/* list items */
+li { 
+    border-color: black;
+    background-color: rgb(216, 216, 237); 
+}
+
+#maincon {
+    border-color: yellow;
+    
+    margin-left: 10vw;
+    margin-top: 30vh;
+}
+
+#maincon h1 {
+    width: 10.5vw;
+    height: auto; 
+}
+
+#maincon h2 {
+    width: 8vw;
+    height: auto;
+}
+
+#navcon {
+    border-color: green;
+
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+}
+
+#primarynav {
+    border-color: blue;
+
+    display: flex;
+    list-style: none; 
+}
+
+#primarynav li {
+    margin-right: 5vw; 
+
+    font-size: 20px;
+}
+
+#socialcon {
+    border-color: purple;
+}
+
+#socialsnav {
+    border-color: pink;
+
+    display: flex; 
+    list-style: none; 
+}
+
+#socialsnav li {
+    margin-right: 5vw;
+
+    font-size: 18px;
+}
