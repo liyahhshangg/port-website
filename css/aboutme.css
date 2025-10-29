@@ -32,7 +32,8 @@ a {
     border-radius: 10px;
     background-color: rgb(216, 216, 237);
 
-    height: 7vh; 
+    height: 5%; 
+    margin-bottom: 5%; 
 
     display: flex;
     list-style: none;
@@ -107,8 +108,6 @@ a {
 
     width: 100%;
     height: 70vh;
-
-    margin-top: 5%;
 }
 
 #aboutcon h1 {
@@ -121,8 +120,10 @@ a {
     width: 9.5%;
     height: 5%;
 
-    margin-left: 17.5%;
+    margin-left: 17.5%; 
+    margin-right: 0%;
     margin-top: 2%;
+    margin-bottom: 2%; 
     padding: 0.25%;
     
     text-align: center;
@@ -133,8 +134,8 @@ a {
 #aboutcon2 {
     border-color: green;
 
-    height: 80%; 
-    margin-top: 2%;
+    height: 82%; 
+    margin-bottom: 0%; 
     
     display: flex;  
     justify-content: center;
@@ -154,6 +155,7 @@ a {
 
     width: 40%; 
     height: 100%;
+
     align-items: center;
     justify-content: center;
 }
@@ -163,6 +165,7 @@ a {
 
     width: 20%; 
     height: 5%;
+
     margin-top: 0%;
     margin-bottom: 4%
 }
@@ -179,6 +182,7 @@ a {
 
     width: 93%;
     height: 15%;
+
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -193,41 +197,50 @@ a {
 
 #interestcon {
     border-color: yellow;
-    margin-top: 2vh;
-    height: 40.5vh;
+    height: 50%;
 }
 
 #interestcon h1 {
     border-color: red;
-
-    border-radius: 10px;
     background-color: rgb(216, 224, 237);
+    border-radius: 10px;
 
-    width: 8.5vw;
-    height: 4vh;
-    padding: 5px;
+    font-size: 30px;
+
+    width: 9.5%;
+    height: 5%;
+
+    margin-left: 17.5%;
+    margin-right: 0%; 
+    margin-top: 2%;
+    margin-bottom: 2%; 
+    padding: 0.25%;
+
     text-align: center;
-
-    margin-left: 17vw;
+    align-items: center;
+    justify-content: center;
 }
 
 #interestcon2 {
-    border-color: green; 
-    width: 97.5vw;
-    height: 20vh;
-    margin-top: 3.75vh; 
+
+    border-color: green;
+    height: 82%;
+
+    display: flex;
+    justify-content: center;
 }
 
 #interestlist {
     border-color: teal; 
-    width: 94.5vw;
-    height: 20vh;
+    width: 63%;
+    height: 100%;
 
     display: flex; 
     list-style: none; 
 
     align-items: center; 
     justify-content: center; 
+    text-align: center; 
 
     margin: auto; 
 }
@@ -241,38 +254,41 @@ a {
     display: flex;
     align-items: center;
 
+    height: 100%;
+    width: 100%;
+
     font-size: 20px;
 
-    margin-right: 2.75vw; 
-    padding: 2.6vw; 
+    margin: auto; 
+    padding: 3.5%; 
 }
 
 #aimg1 {
-    width: 5vw; 
-    height: 10vh;
+    width: 45%; 
+    height: 30%;
 
     margin-right: 0.5vw;
 }
 
 #aimg2 {
-    width: 5vw;
-    height: 10.5vh;
+    width: 45%;
+    height: 30%;
 
-    margin-right: 0vw;
+    margin-right: 0%;
 }
 
 #aimg3 {
-    width: 5vw;
-    height: 10vh;
+    width: 45%;
+    height: 50%;
 
-    margin-right: 0vw;
+    margin-right: 0%;
 }
 
 #aimg4 {
-    width: 6vw;
+    width: 49%;
     height: 10.5vh;
 
-    margin-right: 0vw;
+    margin-right: 0%;
 }
 
 #footer {
