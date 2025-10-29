@@ -241,8 +241,6 @@ a {
     align-items: center; 
     justify-content: center; 
     text-align: center; 
-
-    margin: auto; 
 }
 
 #interestlist li {
@@ -251,16 +249,10 @@ a {
     background-color: rgb(216, 224, 237);
     border-radius: 10px; 
 
-    display: flex;
-    align-items: center;
-
     height: 100%;
-    width: 100%;
+    width: 25%;
 
     font-size: 20px;
-
-    margin: auto; 
-    padding: 3.5%; 
 }
 
 #aimg1 {
@@ -279,14 +271,14 @@ a {
 
 #aimg3 {
     width: 45%;
-    height: 50%;
+    height: 90%;
 
     margin-right: 0%;
 }
 
 #aimg4 {
     width: 49%;
-    height: 10.5vh;
+    height: 50%;
 
     margin-right: 0%;
 }
