@@ -5,15 +5,12 @@
     font-family: "garamond";
 }
 
-/* constants */
-:root {
-    --header-height: 7vh; 
-}
-
+/* webpage */
 html {
     border-color: red;
 }
 
+/* webbody */
 body {
     border-color: orange;
 }
@@ -29,12 +26,13 @@ a {
     color: black;
 }
 
+/* navigation top */
 #header { 
     border-color: yellow;
     border-radius: 10px;
     background-color: rgb(216, 216, 237);
 
-    height: var(--header-height); 
+    height: 7vh; 
 
     display: flex;
     list-style: none;
@@ -45,25 +43,42 @@ a {
 
 #header h1 {
     border-color: green;
-    
     font-size: 30px;
-    height: auto;
-    width: auto;
 
-    margin-right: 20vw;
+    height: 50%;
+    width: 10%;
+
+    margin-right: 20%;
 
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 #navcon {
     border-color: teal;
+
+    width: 35%;
+    height: 50%;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #primarynav {
     border-color: blue;
-    padding: 8px;
-    margin: 0px;
+
+    height: 100%; 
+
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%; 
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #header li {
@@ -72,94 +87,108 @@ a {
     display: inline;
     list-style: none;
 
-    padding-left: 1vw;
-    padding-right: 1vh;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 2%; 
+    margin-right: 0%; 
+
+    padding-left: 1%;
+    padding-right: 1%;
 
     font-size: 23.5px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #aboutcon {
     border-color: yellow;
 
-    height: 65vh;
+    width: 100%;
+    height: 70vh;
 
-    margin: auto;
-    margin-top: 10vh;
+    margin-top: 5%;
 }
 
 #aboutcon h1 {
     border-color: red; 
-
     background-color: rgb(216, 224, 237);
     border-radius: 10px;
-    
-    width: 8.5vw;
-    height: 4vh;
-    padding: 5px;
-    text-align: center;
 
-    margin-left: 17vw;
-    margin-bottom: 3.5vh;
+    font-size: 30px;
+    
+    width: 9.5%;
+    height: 5%;
+
+    margin-left: 17.5%;
+    margin-top: 2%;
+    padding: 0.25%;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #aboutcon2 {
     border-color: green;
 
-    height: 55vh; 
-    margin-top: 2vh;
+    height: 80%; 
+    margin-top: 2%;
     
-    display: flex;
+    display: flex;  
     justify-content: center;
 }
 
 #aboutcon2 img {
     border-color: red; 
-    margin-left: 3vw; 
-    margin-right: 1.5vw; 
+    margin-left: 0%; 
+    margin-right: 4.5%; 
     
-    height: 53vh;
-    width: 20vw;
+    height: 100%;
+    width: 21%;
 }
 
 #aboutcon3 {
     border-color: teal;
 
-    width: 45vw; 
-    height: 53vh;
+    width: 40%; 
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 #aboutcon3 h2 {
     border-color: red;
 
-    width: 8vw; 
-    height: 3vh;
-    margin-left: 3vw;
-    margin-top: 0vh;
+    width: 20%; 
+    height: 5%;
+    margin-top: 0%;
+    margin-bottom: 4%
 }
 
 #aboutcon3 p {
     border-color: red;
 
-    width: 39vw; 
-
-    margin-left: 3vw;
-    margin-top: 0vh;
+    width: 100%; 
+    margin-top: 0%;
 }
 
 #aboutlist {
     border-color: blue; 
 
-    width: 36.5vw;
-    height: 8.5vh;
-
-    margin-top: 2vh;
-    margin-left: 3vw;   
+    width: 93%;
+    height: 15%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #aboutlist li {
     border-color: red;
 
-    width: 15vw;
+    width: 15%;
+    height: 31%
 }
 
 #interestcon {

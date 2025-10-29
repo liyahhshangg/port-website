@@ -3,10 +3,12 @@
     font-family: "garamond";
 }
 
+/* webpage */
 html {
     border-color: red;
 }
 
+/* webbody */
 body {
     border-color: orange;
 }
@@ -34,6 +36,9 @@ li {
     
     margin-left: 10vw;
     margin-top: 30vh;
+
+    width: auto; 
+    height: auto; 
 }
 
 #maincon h1 {
@@ -51,6 +56,9 @@ li {
 
     margin-top: 5vh;
     margin-bottom: 4vh;
+
+    width: auto;
+    height: auto;
 }
 
 #primarynav {
@@ -58,16 +66,25 @@ li {
 
     display: flex;
     list-style: none; 
+
+    width: auto;
+    height: auto;
 }
 
 #primarynav li {
     margin-right: 5vw; 
 
+    width: auto;
+    height: auto;
+    
     font-size: 20px;
 }
 
 #socialcon {
     border-color: purple;
+
+    width: auto;
+    height: auto;
 }
 
 #socialsnav {
@@ -75,10 +92,16 @@ li {
 
     display: flex; 
     list-style: none; 
+
+    width: auto;
+    height: auto;
 }
 
 #socialsnav li {
     margin-right: 5vw;
+
+    width: auto;
+    height: auto;
 
     font-size: 18px;
 }
