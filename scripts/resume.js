@@ -5,12 +5,12 @@ function toggleBorders() {
     let elements = document.querySelectorAll("*"); 
     if (!state) {
         for (let i = 0; i < elements.length; i++) {
-            elements[i].style = "border-style: solid";
+            elements[i].style = "outline: 1px solid";
         }
         state = true;
     } else {
         for (let i = 0; i < elements.length; i++) {
-            elements[i].style = "border-style: none";
+            elements[i].style = "outline: none";
         }
         state = false;
     }
