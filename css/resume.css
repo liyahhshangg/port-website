@@ -1,7 +1,6 @@
 /* all items */
 * {
-    border-style: solid;
-    border-width: 1px;
+    outline: 2px solid;
     font-family: "garamond";
 }
 
@@ -11,11 +10,11 @@
 }
 
 html {
-    border-color: red;
+    outline-color: red;
 }
 
 body {
-    border-color: orange;
+    outline-color: orange;
 }
 
 /* curr page highlight */
@@ -30,7 +29,7 @@ a {
 }
 
 #header {
-    border-color: yellow;
+    outline-color: yellow;
     border-radius: 10px;
     background-color: rgb(216, 216, 237);
 
@@ -44,7 +43,7 @@ a {
 }
 
 #header h1 {
-    border-color: green;
+    outline-color: green;
 
     font-size: 30px;
     height: auto;
@@ -57,17 +56,17 @@ a {
 }
 
 #navcon {
-    border-color: teal;
+    outline-color: teal;
 }
 
 #primarynav {
-    border-color: blue;
+    outline-color: blue;
     padding: 8px;
     margin: 0px;
 }
 
 #header li {
-    border-color: purple;
+    outline-color: purple;
 
     display: inline;
     list-style: none;
@@ -79,7 +78,7 @@ a {
 }
 
 #summarycon {
-    border-color: yellow;
+    outline-color: yellow;
 
     height: 30vh;
 
@@ -88,7 +87,7 @@ a {
 }
 
 #summarycon h1 {
-    border-color: red;
+    outline-color: red;
 
     background-color: rgb(216, 224, 237);
     border-radius: 10px;
@@ -103,7 +102,7 @@ a {
 }
 
 #summarycon1 {
-    border-color: green;
+    outline-color: green;
 
     height: 20vh;
     margin-top: 2vh;
@@ -116,14 +115,14 @@ a {
     height: 1rem; 
 }
 #aboutcon3 {
-    border-color: teal;
+    outline-color: teal;
 
     width: 45vw;
     height: 53vh;
 }
 
 #aboutcon3 h2 {
-    border-color: red;
+    outline-color: red;
 
     width: 8vw;
     height: 3vh;
@@ -132,7 +131,7 @@ a {
 }
 
 #aboutcon3 p {
-    border-color: red;
+    outline-color: red;
 
     width: 39vw;
 
@@ -141,7 +140,7 @@ a {
 }
 
 #aboutlist {
-    border-color: blue;
+    outline-color: blue;
 
     width: 36.5vw;
     height: 8.5vh;
@@ -151,19 +150,19 @@ a {
 }
 
 #aboutlist li {
-    border-color: red;
+    outline-color: red;
 
     width: 15vw;
 }
 
 #interestcon {
-    border-color: yellow;
+    outline-color: yellow;
     margin-top: 2vh;
     height: 40.5vh;
 }
 
 #interestcon h1 {
-    border-color: red;
+    outline-color: red;
 
     border-radius: 10px;
     background-color: rgb(216, 224, 237);
@@ -177,14 +176,14 @@ a {
 }
 
 #interestcon2 {
-    border-color: green;
+    outline-color: green;
     width: 97.5vw;
     height: 20vh;
     margin-top: 3.75vh;
 }
 
 #interestlist {
-    border-color: teal;
+    outline-color: teal;
     width: 94.5vw;
     height: 20vh;
 
@@ -198,7 +197,7 @@ a {
 }
 
 #interestlist li {
-    border-color: red;
+    outline-color: red;
 
     background-color: rgb(216, 224, 237);
     border-radius: 10px;
@@ -241,7 +240,7 @@ a {
 }
 
 #footer {
-    border-color: yellow;
+    outline-color: yellow;
 
     border-radius: 10px;
     background-color: rgb(216, 216, 237);

@@ -1,0 +1,297 @@
+/* all items */
+* {
+  outline: 5px solid;
+  font-family: "garamond";
+}
+
+/* webpage */
+html {
+  outline-color: red;
+}
+
+/* webbody */
+body {
+  outline-color: orange;
+}
+
+/* curr page highlight */
+#active {
+  color: rgb(91, 91, 20);
+}
+
+/* links */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* navigation top */
+#header {
+  outline-color: yellow;
+  border-radius: 10px;
+  background-color: rgb(216, 216, 237);
+
+  height: 5%;
+  margin-bottom: 5%;
+
+  display: flex;
+  list-style: none;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#header h1 {
+  outline-color: green;
+  font-size: 30px;
+
+  height: 50%;
+  width: 10%;
+
+  margin-right: 20%;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#navcon {
+  outline-color: teal;
+
+  width: 35%;
+  height: 50%;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#primarynav {
+  outline-color: blue;
+
+  height: 100%;
+
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#header li {
+  outline-color: purple;
+
+  display: inline;
+  list-style: none;
+
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 2%;
+  margin-right: 0%;
+
+  padding-left: 1%;
+  padding-right: 1%;
+
+  font-size: 23.5px;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutcon {
+  outline-color: yellow;
+
+  width: 100%;
+  height: 70vh;
+}
+
+#aboutcon h1 {
+  outline-color: red;
+  background-color: rgb(216, 224, 237);
+  border-radius: 10px;
+
+  font-size: 30px;
+
+  width: 9.5%;
+  height: 5%;
+
+  position: relative; 
+  left: 17.5%;
+  top: 1.75%;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutcon2 {
+  outline-color: green;
+
+  height: 82%;
+  margin-bottom: 0%;
+
+  display: flex;
+  justify-content: center;
+}
+
+#aboutcon2 img {
+  outline-color: red;
+  margin-left: 0%;
+  margin-right: 4.5%;
+
+  height: 100%;
+  width: 21%;
+}
+
+#aboutcon3 {
+  outline-color: teal;
+
+  width: 40%;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutcon3 h2 {
+  outline-color: red;
+
+  width: 20%;
+  height: 5%;
+
+  margin-top: 0%;
+  margin-bottom: 4%
+}
+
+#aboutcon3 p {
+  outline-color: red;
+
+  width: 100%;
+  margin-top: 0%;
+}
+
+#aboutlist {
+  outline-color: blue;
+
+  width: 93.5%;
+  height: 15%;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutlist li {
+  outline-color: red;
+
+  width: 15%;
+  height: 31%
+}
+
+/* 
+#interestcon {
+    outline-color: yellow;
+    height: 50%;
+}
+
+#interestcon h1 {
+    outline-color: red;
+    background-color: rgb(216, 224, 237);
+    outline-radius: 10px;
+
+    font-size: 30px;
+
+    width: 9.5%;
+    height: 5%;
+
+    margin-left: 17.5%;
+    margin-right: 0%; 
+    margin-top: 2%;
+    margin-bottom: 2%; 
+    padding: 0.25%; 
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#interestcon2 {
+
+    outline-color: green;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#interestlist {
+    outline-color: teal; 
+    width: 63%;
+    height: 100%;
+
+    display: inline-flex; 
+    list-style: none; 
+
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+#interestlist li {
+    outline-color: red;
+
+    background-color: rgb(216, 224, 237);
+    outline-radius: 10px; 
+
+    height: 5%;
+    width: 25%;
+
+    font-size: 20px;
+}
+
+#aimg1 {
+    width: 50%; 
+    height: 30%;
+
+    margin-right: 0.5vw;
+}
+
+#aimg2 {
+    width: 45%;
+    height: 30%;
+
+    margin-right: 0%;
+}
+
+#aimg3 {
+    width: 45%;
+    height: 90%;
+
+    margin-right: 0%;
+}
+
+#aimg4 {
+    width: 49%;
+    height: 50%;
+
+    margin-right: 0%;
+} */
+
+#footer {
+  outline-color: yellow;
+  border-radius: 10px;
+  background-color: rgb(216, 216, 237);
+
+  height: 5%;
+  margin-bottom: 0%;
+
+  display: flex;
+  list-style: none;
+
+  align-items: center;
+  justify-content: center;
+}
