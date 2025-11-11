@@ -7,13 +7,15 @@
 /* webpage */
 html {
     outline-color: red;
+    outline: 0px; 
     height: 100vh; 
-    width: 100vw; 
+    width: 98vw; 
 }
 
 /* webbody */
 body {
     outline-color: orange;
+    outline: 0px; 
     height: 100%; 
     width: 100%; 
 }
@@ -124,7 +126,7 @@ a {
     display: flex; 
     
     width: 9%;
-    height: 40%;
+    height: 4vh;
 
     margin-left: 17.5%; 
     margin-top: 2%;
@@ -149,16 +151,16 @@ a {
 #aboutcon2 img {
     outline-color: red; 
     margin-left: 0%; 
-    margin-right: 4.5%; 
+    margin-right: 4%; 
     
     height: 100%;
-    width: 20%;
+    width: 25%;
 }
 
 #aboutcon3 {
     outline-color: teal;
 
-    width: 40%; 
+    width: 36%; 
     height: 100%;
 
     align-items: center;
@@ -168,7 +170,7 @@ a {
 #aboutcon3 h2 {
     outline-color: red;
 
-    width: 20%; 
+    width: 30%; 
     height: 5%;
 
     margin-top: 0%;
@@ -199,6 +201,92 @@ a {
     width: 15%;
     height: 31%
 }
+
+#intcon {
+    outline-color: yellow;
+    outline: 5px solid yellow;
+
+    display: inline-block;
+
+    width: 100%;
+    height: 35vh;
+
+    margin-bottom: 0%;
+}
+
+#intcon h1 {
+    outline-color: red;
+    background-color: rgb(216, 224, 237);
+    border-radius: 10px;
+
+    font-size: 30px;
+    display: flex;
+
+    width: 12%;
+    height: 4vh;
+
+    margin-left: 17.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#intcon h3 {
+    outline-color: red;
+
+    width: 50%;
+    height: 7%;
+
+    margin-left: 17.5%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+
+    align-content: center;
+}
+
+#intcon2 {
+    outline-color: green;
+
+    height: 49%;
+    width: 100%;
+
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#intcon2 #first {
+    margin-left: 17.5%;
+}
+
+#intcon2 #last {
+    margin-right: 17.5%;
+}
+
+#intcon2 #topr {
+    margin-top: 0%;
+}
+
+#intcon2 p {
+    outline-color: red;
+    background-color: rgb(216, 224, 237);
+    border-radius: 10px;
+
+    width: 11.4%;
+    height: 100%;
+
+    margin-left: 2%;
+    margin-top: 0%;
+
+    text-align: center;
+    align-content: center;
+}
+
 /* 
 #interestcon {
     outline-color: yellow;

@@ -1,19 +1,19 @@
-let button = document.getElementById("toggleB"); 
-let state = false; 
+let toggleB = document.getElementById("toggleB"); 
 
+let toggleBState = false; 
 function toggleBorders() {
-    let elements = document.querySelectorAll("*"); 
-    if (!state) {
+    var elements = document.querySelectorAll("*"); 
+    if (!toggleBState) {
         for (let i = 0; i < elements.length; i++) {
             elements[i].style = "outline: 1px solid";
         }
-        state = true;
+        toggleBState = true;
     } else {
         for (let i = 0; i < elements.length; i++) {
             elements[i].style = "outline: none";
         }
-        state = false;
+        toggleBState = false;
     }
 }
 
-button.addEventListener("click", toggleBorders); 
+toggleB.addEventListener("click", toggleBorders); 
