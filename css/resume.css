@@ -1,7 +1,7 @@
 /* all items */
 * {
     outline: 2px solid;
-    font-family: "garamond";
+    font-family: "century gothic", "garamond";
 }
 
 /* webpage */
@@ -23,7 +23,7 @@ body {
 
     margin: 0;
     height: 100vh;
-    background-image: url('/images/bg.png');
+    background-image: url('/images/bgs/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,11 +61,10 @@ a {
     font-size: 30px;
 
     height: 50%;
-    width: 10%;
+    width: 20%;
 
     margin-left: 19%;
 
-    text-align: center;
     align-content: center;
 }
 
@@ -74,7 +73,7 @@ a {
 
     display: flex;
 
-    width: 35%;
+    width: 40%;
     height: 50%;
     
     margin-left: auto; 

@@ -1,7 +1,7 @@
 /* all items */
 * {
     outline: 2px solid; 
-    font-family: "garamond";
+    font-family: "century gothic", "garamond";
 }
 
 /* webpage */
@@ -10,6 +10,8 @@ html {
     outline: 0px; 
     height: 100vh; 
     width: 98vw; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* webbody */
@@ -18,6 +20,14 @@ body {
     outline: 0px; 
     height: 100%; 
     width: 100%; 
+
+    margin: 0;
+    height: 100vh;
+    background-image: url('/images/bgs/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* curr page highlight */
@@ -52,22 +62,23 @@ a {
     font-size: 30px;
 
     height: 50%;
-    width: 10%;
+    width: 20%;
 
-    margin-right: 20%;
+    margin-left: 19%;
 
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    align-content: center;
 }
 
 #navcon {
     outline-color: teal;
+    
+    display: flex;
 
-    display: flex; 
-
-    width: 35%;
+    width: 40%;
     height: 50%;
+
+    margin-left: auto;
+    margin-right: 14%;
 
     text-align: center;
     align-items: center;
@@ -125,12 +136,12 @@ a {
     font-size: 30px;
     display: flex; 
     
-    width: 9%;
+    width: 10%;
     height: 4vh;
 
-    margin-left: 17.5%; 
+    margin-left: 19%; 
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
     
     text-align: center;
     align-items: center;
@@ -142,6 +153,7 @@ a {
 
     display: flex; 
 
+    margin-top: 0%; 
     height: 90%; 
     
     display: flex;  
@@ -150,8 +162,8 @@ a {
 
 #aboutcon2 img {
     outline-color: red; 
-    margin-left: 0%; 
-    margin-right: 4%; 
+    margin-left: 4.5%; 
+    margin-right: 3%; 
     
     height: 100%;
     width: 25%;
@@ -160,7 +172,7 @@ a {
 #aboutcon3 {
     outline-color: teal;
 
-    width: 36%; 
+    width: 39%; 
     height: 100%;
 
     align-items: center;
@@ -190,7 +202,6 @@ a {
     width: 93.5%;
     height: 15%;
 
-    text-align: center;
     align-items: center;
     justify-content: center;
 }
@@ -198,7 +209,7 @@ a {
 #aboutlist li {
     outline-color: red;
 
-    width: 15%;
+    width: 50%;
     height: 31%
 }
 
@@ -225,7 +236,7 @@ a {
     width: 12%;
     height: 4vh;
 
-    margin-left: 17.5%;
+    margin-left: 19%;
     margin-top: 2%;
     margin-bottom: 2%;
 
@@ -240,7 +251,7 @@ a {
     width: 50%;
     height: 7%;
 
-    margin-left: 17.5%;
+    margin-left: 19%;
     margin-top: 0%;
     margin-bottom: 2%;
 
@@ -261,11 +272,11 @@ a {
 }
 
 #intcon2 #first {
-    margin-left: 17.5%;
+    margin-left: 19%;
 }
 
 #intcon2 #last {
-    margin-right: 17.5%;
+    margin-right: 11%;
 }
 
 #intcon2 #topr {
@@ -280,101 +291,12 @@ a {
     width: 11.4%;
     height: 100%;
 
-    margin-left: 2%;
+    margin-left: 2.35%;
     margin-top: 0%;
 
     text-align: center;
     align-content: center;
 }
-
-/* 
-#interestcon {
-    outline-color: yellow;
-    height: 50%;
-}
-
-#interestcon h1 {
-    outline-color: red;
-    background-color: rgb(216, 224, 237);
-    outline-radius: 10px;
-
-    font-size: 30px;
-
-    width: 9.5%;
-    height: 5%;
-
-    margin-left: 17.5%;
-    margin-right: 0%; 
-    margin-top: 2%;
-    margin-bottom: 2%; 
-    padding: 0.25%; 
-
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-#interestcon2 {
-
-    outline-color: green;
-    height: 100%;
-
-    display: flex;
-    justify-content: center;
-}
-
-#interestlist {
-    outline-color: teal; 
-    width: 63%;
-    height: 100%;
-
-    display: inline-flex; 
-    list-style: none; 
-
-    align-items: center; 
-    justify-content: center; 
-    text-align: center; 
-}
-
-#interestlist li {
-    outline-color: red;
-
-    background-color: rgb(216, 224, 237);
-    outline-radius: 10px; 
-
-    height: 5%;
-    width: 25%;
-
-    font-size: 20px;
-}
-
-#aimg1 {
-    width: 50%; 
-    height: 30%;
-
-    margin-right: 0.5vw;
-}
-
-#aimg2 {
-    width: 45%;
-    height: 30%;
-
-    margin-right: 0%;
-}
-
-#aimg3 {
-    width: 45%;
-    height: 90%;
-
-    margin-right: 0%;
-}
-
-#aimg4 {
-    width: 49%;
-    height: 50%;
-
-    margin-right: 0%;
-} */
 
 #footer {
     outline-color: yellow;
@@ -382,7 +304,7 @@ a {
     background-color: rgb(216, 216, 237);
 
     height: 8%;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-bottom: 0%;
 
     display: flex;

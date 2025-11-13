@@ -1,6 +1,7 @@
 /* all items */
 * {
-    font-family: "garamond";
+    outline: 2px solid;
+    font-family: "century gothic", "garamond";
 }
 
 /* webpage */
@@ -11,6 +12,14 @@ html {
 /* webbody */
 body {
     border-color: orange;
+
+    margin: 0;
+    height: 100vh;
+    background-image: url('/images/bgs/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* links */
@@ -34,7 +43,7 @@ li {
 #maincon {
     border-color: yellow;
     
-    margin-left: 10vw;
+    margin-left: 15vw;
     margin-top: 30vh;
 
     width: auto; 
@@ -42,12 +51,12 @@ li {
 }
 
 #maincon h1 {
-    width: 10.5vw;
+    width: 15vw;
     height: auto; 
 }
 
 #maincon h2 {
-    width: 8vw;
+    width: 10vw;
     height: auto;
 }
 

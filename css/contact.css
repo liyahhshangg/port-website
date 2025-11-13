@@ -1,0 +1,219 @@
+/* all items */
+* {
+  outline: 2px solid;
+  font-family: "century gothic", "garamond";
+  /* Bahnschrift Light */
+}
+
+/* webpage */
+html {
+  outline-color: red;
+  outline: 0px;
+  height: 98vh;
+  width: 98vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* webbody */
+body {
+  outline-color: orange;
+  outline: 0px;
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+  height: 100vh;
+  background-image: url('/images/bgs/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* curr page highlight */
+#active {
+  color: rgb(91, 91, 20);
+}
+
+/* links */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* navigation top */
+#header {
+  outline-color: yellow;
+  border-radius: 0px;
+  background-color: rgb(216, 216, 237);
+
+  height: 8vh;
+  margin-bottom: 4%;
+
+  display: flex;
+  list-style: none;
+
+  align-items: center;
+}
+
+#header h1 {
+  outline-color: green;
+  font-size: 30px;
+
+  height: 50%;
+  width: 20%;
+
+  margin-left: 19%;
+
+  align-content: center;
+}
+
+#navcon {
+  outline-color: teal;
+
+  display: flex;
+
+  width: 40%;
+  height: 50%;
+
+  margin-left: auto;
+  margin-right: 15%;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#primarynav {
+  outline-color: blue;
+
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#header li {
+  outline-color: purple;
+
+  display: inline;
+  list-style: none;
+
+  margin-left: 2%;
+
+  padding-left: 1%;
+  padding-right: 1%;
+
+  font-size: 23.5px;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#header a {
+  justify-content: center;
+  text-align: center;
+}
+
+#summarycon {
+  outline-color: yellow;
+  outline: 5px solid yellow;
+
+  display: inline-block;
+
+  width: 100%;
+  height: 85vh;
+
+  margin-bottom: 0%;
+}
+
+#summarycon h1 {
+  outline-color: red;
+  background-color: rgb(216, 224, 237);
+  border-radius: 10px;
+
+  font-size: 30px;
+  display: flex;
+
+  width: 12%;
+  height: 4vh;
+
+  margin-left: 19%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#summarycon h3 {
+  outline-color: red;
+
+  width: 50%;
+  height: 7%;
+
+  margin-left: 19%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+
+  align-content: center;
+}
+
+#summarycon2 {
+  outline-color: green;
+
+  height: 75%;
+  width: 100%;
+
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 19%;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#contactform {
+  outline-color: blue;
+  width: 50%; 
+  font-size: 30px;
+}
+
+#contactform label {
+  outline-color: purple; 
+}
+
+#contactform input {
+  outline-color: pink; 
+  width: 30%; 
+  height: 7%; 
+}
+
+#contactform #message {
+  height: 30%; 
+  width: 70%; 
+}
+
+#contactform #submit {
+  margin-top: 4%; 
+}
+
+#footer {
+  outline-color: yellow;
+  border-radius: 0px;
+  background-color: rgb(216, 216, 237);
+
+  height: 8vh;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+
+  display: flex;
+  list-style: none;
+
+  align-content: center;
+  justify-content: center;
+}
