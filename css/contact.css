@@ -1,8 +1,7 @@
 /* all items */
 * {
-  outline: 2px solid;
+  /* outline: 2px solid; */
   font-family: "century gothic", "garamond";
-  /* Bahnschrift Light */
 }
 
 /* webpage */
@@ -119,7 +118,6 @@ a {
 
 #summarycon {
   outline-color: yellow;
-  outline: 5px solid yellow;
 
   display: inline-block;
 

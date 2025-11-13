@@ -1,6 +1,6 @@
 /* all items */
 * {
-    outline: 2px solid; 
+    /* outline: 2px solid; */
     font-family: "century gothic", "garamond";
 }
 
@@ -215,7 +215,6 @@ a {
 
 #intcon {
     outline-color: yellow;
-    outline: 5px solid yellow;
 
     display: inline-block;
 
@@ -300,7 +299,6 @@ a {
 
 #footer {
     outline-color: yellow;
-    border-radius: 10px;
     background-color: rgb(216, 216, 237);
 
     height: 8%;
